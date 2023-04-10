@@ -25,7 +25,7 @@ for x in range(6):
     if x == youbi:  #今日の曜日番号とリストの番号が一致したときにリストの要素を本日の曜日に。
         youbi_str = youbi_list[x]
 
-st.caption(f'～～ ただいまの時刻... {today.year}年{today.month}月{today.day}日（{youbi_str}）{t.hour}時{t.minute}分{t.second}秒 ～～')
+st.caption(f'～ ただいまの時刻... {today.year}年{today.month}月{today.day}日（{youbi_str}）{t.hour}時{t.minute}分{t.second}秒 ～')
 
 image = Image.open('./data/icon230410.jpg')
 st.image(image, width=220)
