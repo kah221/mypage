@@ -10,6 +10,8 @@ from datetime import datetime
 #乱数を生成するため
 import random
 
+
+
 #タイトル部start------------------------------------------------------------
 #st.title('響@kah_7221 のプロフィール')
 st.title('マイページ')
