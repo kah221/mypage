@@ -1,0 +1,30 @@
+//↓色を変える 230308_1736
+
+{
+    "editor.tokenColorCustomizations": {
+        
+        //"comments": "#abb1b5",
+        "strings": "#b0cc4a",
+        "functions": "#c787ec",
+        //"functions": "#67d175",
+        //"numbers": "#51d186",
+        "numbers": "#5169d1"
+
+        //↓演算子の色を変えた
+        /*"[Default Dark+]": {
+            "textMateRules": [
+                {
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#d4286a",
+                        "fontStyle": ""
+                    }
+                }
+            ]
+        }*/
+    
+
+    },
+    "editor.fontSize": 17
+}
+
